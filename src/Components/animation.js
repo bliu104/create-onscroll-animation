@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Scrollbar from "smooth-scrollbar";
 import lottie from "lottie-web";
 import "./style.css";
-import Cat from "../JSON/Cat.json";
 import World from "../JSON/World.json";
 
 const Animation = () => {
@@ -25,7 +24,6 @@ const Animation = () => {
       let totalHeight = scrollbar.limit.y;
       let scrollFromTop = scrollbar.scrollTop;
       let scrollPercentage = (scrollFromTop * 100) / totalHeight;
-      let scrollPercentRounded = Math.round(scrollPercentage); // Just in case
       console.log((scrollPercentage * lottieProgress.totalFrames) / 100);
       lottieProgress.goToAndStop(
         (scrollPercentage * lottieProgress.totalFrames) / 100,
