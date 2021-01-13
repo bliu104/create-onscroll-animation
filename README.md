@@ -23,7 +23,7 @@ npm start or yarn start
 Launch on localhost:3000
 
 ### Packages
-lottie-web: https://www.npmjs.com/package/lottie-web
+lottie-web: https://www.npmjs.com/package/lottie-web /n
 smooth-scrollbar: https://www.npmjs.com/package/smooth-scrollbar
 
 ### Deployment
