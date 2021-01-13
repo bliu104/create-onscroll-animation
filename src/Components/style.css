@@ -1,0 +1,36 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  padding-top: 2%;
+  padding-left: 15%;
+  width: 85%;
+  height: 400vh;
+  font-size: 48px;
+}
+
+.lottie-progress {
+  width: 250px;
+  height: auto;
+  position: fixed;
+  top: 15%;
+  right: 93%;
+  transform: translate(50%, -50%);
+}
